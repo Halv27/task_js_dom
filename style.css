@@ -42,7 +42,7 @@
   grid-template-columns: 1fr 4fr;
 }
 .menu {
-  border-right: 2px solid var(--blue);
+  border-right: 1px solid var(--light-blue);
 }
 .menu__item {
   list-style: none;
@@ -71,7 +71,6 @@
   justify-items: center;
 }
 .content__title {
-  font-family: "Bitter", serif;
   font-size: 1.5rem;
   font-weight: bold;
   color: var(--dark-grey);
