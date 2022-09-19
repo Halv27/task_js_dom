@@ -49,17 +49,17 @@ function createMenuList() {
 };
 createMenuList();
 function createContentBox(cat) {
-  const title = document.createElement("h2");
-    title.classList.add("content__title");
-    title.innerText = cat.title;
+  const titleContent = document.createElement("h2");
+  titleContent.classList.add("content__title");
+  titleContent.innerText = cat.title;
   const img = document.createElement("img");
-    img.classList.add("content__image");
-    img.setAttribute("src", cat.img);
-    img.setAttribute("alt", cat.alt);
+  img.classList.add("content__image");
+  img.setAttribute("src", cat.img);
+  img.setAttribute("alt", cat.alt);
   const description = document.createElement("p");
   description.classList.add("content__description");
   description.innerText = cat.description;
-  allContent.appendChild(title);
+  allContent.appendChild(titleContent);
   allContent.appendChild(description);
   allContent.appendChild(img);
   return allContent;
